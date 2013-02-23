@@ -1,0 +1,7 @@
+﻿Name: Gravatar
+AntiForgery: enabled
+Author: Nicholas Mayne
+Website: http://code.google.com/p/ngravatar/
+Version: 1.0.0
+OrchardVersion: 1.6.0
+Description: Give you the ability to  add Gravatars server side. Code from on http://code.google.com/p/ngravatar/
