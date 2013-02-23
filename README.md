@@ -5,7 +5,9 @@ To Use:
 
 1. Initialize the module
 2. Then modify your view within your theme.... Here is an example of mine... Parts.Common.Metadata.cshtml
-   
+
+
+```
 @using NGravatar.Html
 @using Orchard.Security
 
@@ -21,6 +23,7 @@ To Use:
     @T("By {0}", user.UserName)@T(",")
 </span>
 <span class="published">@Display.PublishedState(createdDateTimeUtc: Model.ContentPart.CreatedUtc, publisheddateTimeUtc: Model.ContentPart.PublishedUtc)</span>
+```
 
 
 
